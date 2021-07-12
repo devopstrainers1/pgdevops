@@ -1,0 +1,7 @@
+[user]
+	name = Srikant Pradhan
+	email = srikantakumarpradhan@gmail.com
+[help]
+	autocorrect = 1
+[core]
+	editor = vim
