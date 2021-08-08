@@ -1,0 +1,5 @@
+FROM centos:7
+RUN yum install epel-release -y
+RUN yum install ansible git -y
+RUN mkdir ansible_work
+RUN cd ansible_work && git clone https://github.com/devopstrainers1/pgdevops.git
