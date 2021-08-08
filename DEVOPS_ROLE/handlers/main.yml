@@ -1,0 +1,7 @@
+---
+# handlers file for DEVOPS_ROLE
+    - name: "Restart service if config updated"
+      service:
+        name: nginx
+        state: restarted
+

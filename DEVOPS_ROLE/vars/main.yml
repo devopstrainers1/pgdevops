@@ -1,0 +1,5 @@
+---
+# vars file for DEVOPS_ROLE
+    server_port: 8090
+    worker_con: 1024
+
